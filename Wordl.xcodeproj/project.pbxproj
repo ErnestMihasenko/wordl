@@ -10,13 +10,24 @@
 		5E4001EC281873FD0022E474 /* LetterEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4001EB281873FD0022E474 /* LetterEvaluation.swift */; };
 		5E9EF12F2815428B0047C7C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EF12E2815428B0047C7C5 /* AppDelegate.swift */; };
 		5E9EF1312815428B0047C7C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EF1302815428B0047C7C5 /* SceneDelegate.swift */; };
-		5E9EF1332815428B0047C7C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EF1322815428B0047C7C5 /* ViewController.swift */; };
 		5E9EF1362815428B0047C7C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9EF1342815428B0047C7C5 /* Main.storyboard */; };
 		5E9EF1382815428B0047C7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9EF1372815428B0047C7C5 /* Assets.xcassets */; };
 		5E9EF13B2815428B0047C7C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9EF1392815428B0047C7C5 /* LaunchScreen.storyboard */; };
 		5E9EF14528154ADA0047C7C5 /* LetterBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EF14428154ADA0047C7C5 /* LetterBoxView.swift */; };
 		5E9EF14728154AE70047C7C5 /* LetterBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E9EF14628154AE70047C7C5 /* LetterBoxView.xib */; };
 		5E9EF14A281599590047C7C5 /* LetterBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EF149281599590047C7C5 /* LetterBox.swift */; };
+		5E9F4989281D3AB800655377 /* KeyboardBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F4988281D3AB800655377 /* KeyboardBox.swift */; };
+		5E9F498B281D3B2D00655377 /* KeyboardSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F498A281D3B2D00655377 /* KeyboardSymbol.swift */; };
+		5E9F498E281D48A500655377 /* KeyboardBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F498D281D48A500655377 /* KeyboardBoxView.swift */; };
+		5E9F4990281D493600655377 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F498F281D493600655377 /* KeyboardView.swift */; };
+		5E9F4993281D496300655377 /* KeyboardButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F4992281D496300655377 /* KeyboardButtonDelegate.swift */; };
+		5E9F4997281D4C5C00655377 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F4996281D4C5C00655377 /* KeyboardManager.swift */; };
+		5E9F4999281DABEE00655377 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F4998281DABEE00655377 /* GameViewController.swift */; };
+		5E9F499C281F075700655377 /* GameFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F499B281F075700655377 /* GameFieldView.swift */; };
+		5E9F499F281F0B9400655377 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F499E281F0B9400655377 /* GameManager.swift */; };
+		5EF59C7B2830150F00B36FAC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF59C7A2830150F00B36FAC /* MenuViewController.swift */; };
+		5EF59C7D283044F600B36FAC /* HighScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF59C7C283044F600B36FAC /* HighScoresViewController.swift */; };
+		5EF59C7F2830450400B36FAC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF59C7E2830450400B36FAC /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +35,6 @@
 		5E9EF12B2815428B0047C7C5 /* Wordl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9EF12E2815428B0047C7C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E9EF1302815428B0047C7C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E9EF1322815428B0047C7C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E9EF1352815428B0047C7C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E9EF1372815428B0047C7C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E9EF13A2815428B0047C7C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +42,18 @@
 		5E9EF14428154ADA0047C7C5 /* LetterBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterBoxView.swift; sourceTree = "<group>"; };
 		5E9EF14628154AE70047C7C5 /* LetterBoxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LetterBoxView.xib; sourceTree = "<group>"; };
 		5E9EF149281599590047C7C5 /* LetterBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterBox.swift; sourceTree = "<group>"; };
+		5E9F4988281D3AB800655377 /* KeyboardBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBox.swift; sourceTree = "<group>"; };
+		5E9F498A281D3B2D00655377 /* KeyboardSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSymbol.swift; sourceTree = "<group>"; };
+		5E9F498D281D48A500655377 /* KeyboardBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBoxView.swift; sourceTree = "<group>"; };
+		5E9F498F281D493600655377 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		5E9F4992281D496300655377 /* KeyboardButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButtonDelegate.swift; sourceTree = "<group>"; };
+		5E9F4996281D4C5C00655377 /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
+		5E9F4998281DABEE00655377 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5E9F499B281F075700655377 /* GameFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFieldView.swift; sourceTree = "<group>"; };
+		5E9F499E281F0B9400655377 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		5EF59C7A2830150F00B36FAC /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5EF59C7C283044F600B36FAC /* HighScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresViewController.swift; sourceTree = "<group>"; };
+		5EF59C7E2830450400B36FAC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +67,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E40021A281A00AE0022E474 /* Letter */ = {
+			isa = PBXGroup;
+			children = (
+				5E9EF149281599590047C7C5 /* LetterBox.swift */,
+				5E4001EB281873FD0022E474 /* LetterEvaluation.swift */,
+			);
+			path = Letter;
+			sourceTree = "<group>";
+		};
+		5E40021B281A00C30022E474 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5E9F4988281D3AB800655377 /* KeyboardBox.swift */,
+				5E9F498A281D3B2D00655377 /* KeyboardSymbol.swift */,
+				5E9F4996281D4C5C00655377 /* KeyboardManager.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
 		5E9EF1222815428A0047C7C5 = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +105,12 @@
 		5E9EF12D2815428B0047C7C5 /* Wordl */ = {
 			isa = PBXGroup;
 			children = (
+				5EF59C8028311B2B00B36FAC /* ViewControllers */,
+				5E9F4991281D493E00655377 /* Delegates */,
 				5E9EF1482815810A0047C7C5 /* Models */,
+				5E9EF142281542A00047C7C5 /* Views */,
 				5E9EF12E2815428B0047C7C5 /* AppDelegate.swift */,
 				5E9EF1302815428B0047C7C5 /* SceneDelegate.swift */,
-				5E9EF1322815428B0047C7C5 /* ViewController.swift */,
 				5E9EF1342815428B0047C7C5 /* Main.storyboard */,
 				5E9EF1372815428B0047C7C5 /* Assets.xcassets */,
 				5E9EF1392815428B0047C7C5 /* LaunchScreen.storyboard */,
@@ -79,28 +122,74 @@
 		5E9EF142281542A00047C7C5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5E9EF14328154A5F0047C7C5 /* Letter Field */,
+				5E9F499A281F072000655377 /* GameField */,
+				5E9F498C281D408900655377 /* Keyboard */,
+				5E9EF14328154A5F0047C7C5 /* LetterBox */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		5E9EF14328154A5F0047C7C5 /* Letter Field */ = {
+		5E9EF14328154A5F0047C7C5 /* LetterBox */ = {
 			isa = PBXGroup;
 			children = (
 				5E9EF14428154ADA0047C7C5 /* LetterBoxView.swift */,
 				5E9EF14628154AE70047C7C5 /* LetterBoxView.xib */,
 			);
-			path = "Letter Field";
+			path = LetterBox;
 			sourceTree = "<group>";
 		};
 		5E9EF1482815810A0047C7C5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5E9EF149281599590047C7C5 /* LetterBox.swift */,
-				5E4001EB281873FD0022E474 /* LetterEvaluation.swift */,
-				5E9EF142281542A00047C7C5 /* Views */,
+				5E9F499D281F0B8200655377 /* Game */,
+				5E40021B281A00C30022E474 /* Keyboard */,
+				5E40021A281A00AE0022E474 /* Letter */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5E9F498C281D408900655377 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5E9F498D281D48A500655377 /* KeyboardBoxView.swift */,
+				5E9F498F281D493600655377 /* KeyboardView.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		5E9F4991281D493E00655377 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5E9F4992281D496300655377 /* KeyboardButtonDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		5E9F499A281F072000655377 /* GameField */ = {
+			isa = PBXGroup;
+			children = (
+				5E9F499B281F075700655377 /* GameFieldView.swift */,
+			);
+			path = GameField;
+			sourceTree = "<group>";
+		};
+		5E9F499D281F0B8200655377 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				5E9F499E281F0B9400655377 /* GameManager.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		5EF59C8028311B2B00B36FAC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EF59C7A2830150F00B36FAC /* MenuViewController.swift */,
+				5E9F4998281DABEE00655377 /* GameViewController.swift */,
+				5EF59C7C283044F600B36FAC /* HighScoresViewController.swift */,
+				5EF59C7E2830450400B36FAC /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,11 +264,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9EF1332815428B0047C7C5 /* ViewController.swift in Sources */,
 				5E4001EC281873FD0022E474 /* LetterEvaluation.swift in Sources */,
+				5EF59C7B2830150F00B36FAC /* MenuViewController.swift in Sources */,
 				5E9EF12F2815428B0047C7C5 /* AppDelegate.swift in Sources */,
+				5E9F4990281D493600655377 /* KeyboardView.swift in Sources */,
+				5E9F499F281F0B9400655377 /* GameManager.swift in Sources */,
+				5E9F498E281D48A500655377 /* KeyboardBoxView.swift in Sources */,
+				5E9F4999281DABEE00655377 /* GameViewController.swift in Sources */,
+				5EF59C7D283044F600B36FAC /* HighScoresViewController.swift in Sources */,
 				5E9EF14A281599590047C7C5 /* LetterBox.swift in Sources */,
+				5E9F499C281F075700655377 /* GameFieldView.swift in Sources */,
+				5E9F4989281D3AB800655377 /* KeyboardBox.swift in Sources */,
 				5E9EF1312815428B0047C7C5 /* SceneDelegate.swift in Sources */,
+				5EF59C7F2830450400B36FAC /* SettingsViewController.swift in Sources */,
+				5E9F4997281D4C5C00655377 /* KeyboardManager.swift in Sources */,
+				5E9F4993281D496300655377 /* KeyboardButtonDelegate.swift in Sources */,
+				5E9F498B281D3B2D00655377 /* KeyboardSymbol.swift in Sources */,
 				5E9EF14528154ADA0047C7C5 /* LetterBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

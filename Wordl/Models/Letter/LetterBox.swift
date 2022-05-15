@@ -10,7 +10,7 @@ import UIKit
 
 struct LetterBox {
     let letter: String
-    let status: CheckLetterStatus?
+    var status: CheckLetterStatus?
 }
 
 
